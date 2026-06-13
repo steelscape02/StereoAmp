@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f09d0b90-acca-4dff-9392-aa82d1827cf0")
+	(paper "A4")
+	(title_block
+		(title "Line Buffer and Volume Control")
+		(company "NC Tech")
+	)
+	(lib_symbols)
+)

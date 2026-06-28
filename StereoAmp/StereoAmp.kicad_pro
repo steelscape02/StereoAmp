@@ -640,7 +640,7 @@
         "uuid": "a586d45f-2024-4624-88a3-d2565a16ed7f"
       }
     ],
-    "used_designators": "bPot1-2,AudioIn2,C9-16,tPot1-2,#PWR9-16,J1,R13-24,U3-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

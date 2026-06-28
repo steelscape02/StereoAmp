@@ -2119,26 +2119,6 @@
 		)
 		(uuid "26eaabec-15a1-4f53-a25f-af8c8233fcda")
 	)
-	(label "tLin"
-		(at 31.75 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "29f8bb1d-cad4-4005-a729-7124f88f0183")
-	)
-	(label "tRin"
-		(at 114.3 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2cdef8d2-aa97-4153-9ca3-3a2fc9667a9c")
-	)
 	(label "bRF"
 		(at 151.13 128.27 0)
 		(effects
@@ -2198,16 +2178,6 @@
 			(justify right bottom)
 		)
 		(uuid "5e0f036a-5371-4110-b8e7-382a26857073")
-	)
-	(label "bRin"
-		(at 123.19 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e3709bb-3c47-4729-bacd-606c52f4483a")
 	)
 	(label "bRW"
 		(at 147.32 132.08 0)
@@ -2329,16 +2299,6 @@
 		)
 		(uuid "c2a40577-e950-447b-990e-c3a5af1bafa0")
 	)
-	(label "bLin"
-		(at 36.83 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c48d66d7-5b44-4788-a9a1-eb05fbc3de44")
-	)
 	(label "tRF"
 		(at 140.97 26.67 0)
 		(effects
@@ -2378,6 +2338,102 @@
 			(justify left bottom)
 		)
 		(uuid "f61f8bc0-36e7-4914-b1cd-b39b5d163f1c")
+	)
+	(global_label "tRin"
+		(shape input)
+		(at 114.3 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22d3f085-f584-4aee-b5b8-8aec54e83afe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.5653 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "bLin"
+		(shape input)
+		(at 36.83 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6024634c-127f-4450-af16-5679e2a70c82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9139 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "bRin"
+		(shape input)
+		(at 123.19 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76664a8d-43bc-4e84-ad89-ef23334f1299")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.032 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "tLin"
+		(shape input)
+		(at 31.75 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efaea4f8-d6e4-47d1-a46f-54396f72ab6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.2572 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
